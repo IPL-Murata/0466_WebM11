@@ -1,0 +1,35 @@
+.card {
+  /* 横並びにしたい */
+  display: inline-block;
+  width: 250px;
+  /* カード間の余白を作る */
+  border: 1px solid #646464;
+  margin-right: 72px;
+}
+
+.card img {
+  /* 親要素が250pxのため同じ幅になる */
+  width: 100%;
+  height: 250px;
+  /* 基本どんなアスペクト比でもトリミングされて上記サイズで綺麗に表示できる */
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+/* ここからSPレイアウト */
+
+@media screen and (max-width: 480px) {
+  .card {
+    display: block;
+    width: auto;
+    margin: 32px;
+  }
+}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.bg-001 {
+  background: url(../img/bg-stripe.png) repeat;
+}
+
+.bg-002 {
+  height: 350px;
+  /* 背景色と背景画像の重なり順は画像が上になる */
+  background: #98807b url(../img/bg-cat.png) center bottom / contain no-repeat;
+  /* background-size: contain; */
+}

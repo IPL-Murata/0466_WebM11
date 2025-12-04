@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  /* color: red; */
+  /* メモとして使うことも全然あります */
+}
+
+h1 {
+  color: blue;
+}
+/* 上記コードは夏季の限定セールの時のみ適用する */
+
+p {
+  color: tomato;
+}
+
+main p {
+  color: green;
+}
+
+p {
+  color: yellow;
+}
+
+h1,
+p {
+  color: violet;
+}
+
+main p span {
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+a {
+}
+
+a p {
+  width: 300px;
+  padding: 1.5rem;
+  background-color: #e48a49;
+  border: #bc5c18;
+  border-radius: 1rem;
+}
+
+.p_third {
+  width: 300px;
+  height: 300px;
+  padding: 32px;
+  border: 8px solid #000;
+}
+
+/* ボックスモデル作成 */
+
+div {
+  width: 300px;
+  height: 300px;
+  padding: 32px;
+  margin: 48px;
+  /* borderは「太さ」「線の形」「色」 */
+  border: 8px solid #c5771d;
+  /* background-colorは要素の「背景色」を決めることができるプロパティ。paddingの部分まで要素に色を付けられる */
+  /* rgbは0~255までの値を入れて色を混ぜる */
+  background-color: rgb(232, 190, 207);
+}
+
+p {
+  margin: 0;
+}
+
+.result_text {
+  margin: 0 8px;
+  color: red;
+  font-weight: bold;
+}

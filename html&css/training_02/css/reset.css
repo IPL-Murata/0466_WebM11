@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  /* img要素の少しの隙間を回避するテク1 */
+  display: block;
+}

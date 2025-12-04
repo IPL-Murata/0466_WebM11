@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  display: block;
+  width: 200px;
+  padding: 1em;
+  margin: 40px auto;
+  /* 要素内の文字揃え */
+  text-align: center;
+}
+
+.text-link {
+  color: #008000;
+  /* text-decoration: none; */
+}
+
+.button-link {
+  background-color: #e4c91e;
+  color: red;
+  text-decoration: none;
+}
+
+.button-link2 {
+  background-color: #1e90ff;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  /* 要素の角丸を作る */
+  border-radius: 10px;
+  /* 要素の下の線 */
+  border-bottom: 4px solid #191970;
+}
+
+.button-link2:active {
+  border-bottom: none;
+  /* 要素をY軸（つまり縦軸）に4pxちょいズラしをしている */
+  transform: translateY(4px);
+}
+
+/* ちっちゃいPC以上を想定 */
+@media screen and (min-width: 960px) {
+  /* hoverなどの限定されたセレクタを「擬似クラス」と呼びます */
+  .button:hover {
+    /* "要素"のアルファの設定 0~1まで */
+    opacity: 0.7;
+  }
+}

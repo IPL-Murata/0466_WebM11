@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/*---------- reset END ----------*/
+
+.news {
+  padding: 160px 0;
+  background: #093647;
+}
+
+.news-container {
+  width: 600px;
+  padding: 32px 0;
+  border: 4px solid #ffffff;
+  border-radius: 16px;
+  margin: 0 auto;
+  background: #46a5c2;
+  text-align: center;
+}
+
+.news-title {
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+.news-item {
+  display: inline-block;
+  padding: 1rem 0;
+  border-bottom: 1px dotted #000;
+}
+
+.news-item:first-of-type {
+  padding-top: 0;
+}
+
+.news-item a {
+  /* クリック範囲を広げたい */
+  padding: 1rem;
+}
+
+.news-item span {
+  margin-right: 1rem;
+}
