@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+footer {
+  padding: 48px;
+  background: #614935;
+}
+
+a {
+  color: #9b6c45;
+}
+
+.f-container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 48px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+}
+
+.f-logo {
+  width: 80%;
+  max-width: 236px;
+  margin: 0 auto;
+}
+
+.f-logo img {
+  width: 100%;
+}
+
+.f-tel a {
+  color: #000;
+}
+
+.f-nav {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.f-nav li:not(:last-of-type) {
+  margin-right: 24px;
+}
+
+small {
+  margin-bottom: 0;
+}
+
+/* .f-containerの直下にある子要素全てをセレクタにしている */
+.f-container > * {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 851px) {
+  .f-nav {
+    flex-direction: column;
+  }
+
+  .f-nav li:not(:last-of-type) {
+    margin: 0 0 24px 0;
+  }
+}

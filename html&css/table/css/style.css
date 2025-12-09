@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+table caption {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.col-1 {
+  width: 20%;
+}
+
+.col-2,
+.col-3 {
+  width: 40%;
+}
+
+th {
+  background: #a50;
+  color: #fff;
+}
